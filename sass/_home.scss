@@ -27,5 +27,31 @@
 
 /*contacto y shop*/
 
+.media {
+    padding: 30px 0px;
+    border-top: 5px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #f17c8a;
+}
+
+.media img {
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    margin: 15px 150px;
+}
+
+.media img:hover {
+    transform: scale(2, 2);
+}
+
+.media h2 {
+    font-size: 20px;
+}
+
+.media p {
+    font-size: 14px;
+}
 
 
