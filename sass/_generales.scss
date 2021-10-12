@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*generales*/
+ *{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    background-color: #ffbbb7;
+}
+
+
+  
+.inicio img {
+    width: 450px; 
+}
+  
+.inicio article {
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+  
+.inicio article h1 {
+    font-size: 25px; 
+}
+  
+.inicio article p {
+    font-size: 14px; 
+}
+
+.listas {
+    background-color: #ffbbb7;
+}
+
+.texto {
+    background-color: #ffbbb7;
+}
+
+/*media*/
+
+@media screen and (max-width: 320px) {
+    .padre {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .padre {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .padre {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: center;
+    }
+    .inicio {
+        justify-content: center;
+    }
+    .padre {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .padre {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .padre {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} 
